@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+        <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <button id="show-or-hider"> <strong>CLIQUE AQUI</strong></button>
+
+<!--           INICIO DA DIV PAI                    -->
+    <div class="divpai">
+        <div class="div-topo"> 
+            <h style="color:aliceblue;"><strong><h2>Html, CSS e javaScript</h2></strong></h>
+        </div>
+<!--            FIM DA DIV PAI                      -->
+
+
+
+<!--            INICIO DA DIV ROSA                   -->
+
+    <div class="div-pink"> <br>
+        <div class="nome">Nome:</div>
+        
+        <div >
+            <input id="valor" class="text-box" type="text" placeholder="Seu Nome!!!!">
+        </div>
+
+        <div class="F-M">
+            <form action="">
+            <input type="radio" name="sexo" id="M">Menino<br>
+            <input type="radio" name="sexo" id="F">Menina<br>
+            </form>
+
+            <input class="botao-pink" type="submit" value="Enviar" onclick="capturar()"> 
+        </div>
+    </div>
+<!--            FIM DA DIV ROSA                      -->
+
+
+
+<!--            INICIO DA DIV BLUE                   -->
+    <div class="div-blue">
+        <div id="valorDigitado" class="text-blue"><strong><h2></h2></strong></div>
+    </div>
+<!--               FIM DA DIV BLUE                   -->
+
+
+
+<!--               INICIO DA DIV BLUE2               -->
+<div class="div-blue2">
+    <div class="bloco1"></div> 
+    <div class="bloco2"></div>
+    <div class="bloco3"></div>
+    <div class="bloco4"></div>
+    <div class="bloco5"></div>
+    <div class="bloco6"></div>
+</div>
+<!--               FIM DA DIV BLUE2                  -->
+
+
+
+<!--               INICIO DA DIV CHECKBOX            -->
+
+<div class="checkbox">
+    <div class="color">
+        <main>
+            <div class="coresPreferidas"><strong>Cores preferidas:</strong></div>
+            <input type="checkbox" id="vermelho" onclick="trocarcor(id)">Vermelho<br>
+            <input type="checkbox" id="azul" onclick="trocarcor(id)">Azul<br>
+            <input type="checkbox" id="amarelo" onclick="trocarcor(id)">Amarelo<br>  
+            <input type="checkbox" id="verde" onclick="trocarcor(id)">Verde<br>
+            <input type="checkbox" id="branco" onclick="trocarcor(id)">Branco<br>
+            <input type="checkbox" id="preto" onclick="trocarcor(id)">Preto<br>
+        </main>
+    </div> 
+</div>
+<!--               FIM DA DIV CHECKBOX               -->
+
+
+
+<!--               INICIO DA DIV ORANGE              -->
+<div class="div-orange">
+    <div class="que-dia-e-hoje"> 
+        <div>Que dia é hoje ?</div>
+        <input id="data" type="date">
+    </div>
+
+
+    <div class="quando-voce-nasceu"> 
+        Quando você nasceu ?
+        <input id="idade" type="date">
+    </div>
+
+
+    <div class="button-orange">
+        <input type="button" value="Calcular" onclick="somar()">
+    </div>
+</div>
+<!--               FIM DA DIV ORANGE              -->
+
+
+
+<!--               INICIO  DA DIV GREY                -->
+    <div class="div-grey">
+        <div id="anos" class="x-anos"><h3>Você Tem <i><span>X</span></i> anos de idade!</h3></div>
+    </div>
+<!--               FIM  DA DIV GREY                   -->
+
+
+
+<!--               INICIO DA DIV RODA-PÉ             -->
+    <div class="div-roda-pe"> 
+    <div class="txt-roda-pe">Quando chegar aqui você estará arrepiando no front-end!</div>
+        <div class="option">
+            <select>
+                <option>Selecione uma mensagem de despedida</option>
+                <option> Vamos ao Mc'Donalds</option>
+                <option> Paga um cinema pra mim</option>
+            </select> 
+        </div>
+
+    <div class="button-finalizar">
+        <input type="button" value="Finalizar" onclick="acao1()">
+    </div>
+
+    </div>
+<!--               FIM DA DIV RODA-PÉ               -->
+
+</div>
+</body>
+</html>
